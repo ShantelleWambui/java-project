@@ -2,9 +2,10 @@ public class StudentDetails {
     private String name;
     private int age;
     private String course;
+    private String gender;
 
     // Constructor to initialize student details
-    public Student(String name, int age, String course) {
+    public StudentDetails(String name, int age, String course, String gender) {
         this.name = name;
         this.age = age;
         this.course = course;
@@ -22,7 +23,7 @@ public class StudentDetails {
 
     public static void main(String[] args) {
         // Creating an instance of the Student class and invoking the displayDetails method
-        Student student = new StudentDetails("Shantelle Wambui", 20, "Computer Science", "Female");
+        StudentDetails student = new StudentDetails("Shantelle Wambui", 20, "Computer Science", "Female");
         student.displayDetails();
     }
 }
